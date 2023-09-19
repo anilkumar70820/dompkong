@@ -1,15 +1,15 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import jaylon from '../assets/images/png/jaylon.png'
+import {Row, Col } from 'react-bootstrap'
+import jaylon from '../assets/images/webp/jaylon.webp'
 import instagram from '../assets/images/svg/instagram.svg'
 import twitter from '../assets/images/svg/twitter.svg'
-import talan from '../assets/images/png/talan.png'
-import alfonso from '../assets/images/png/alfonso.png'
+import talan from '../assets/images/webp/talan.webp'
+import alfonso from '../assets/images/webp/alfonso.webp'
 
 const MeetTheTeam = () => {
   return (
     <section className='py-5 bg-black'>
-      <Container>
+      <div className='my_container'>
         <h2 className='headings text-center mb-5'data-aos="fade-right" data-aos-duration="2000">MEET THE TEAM</h2>
         <div className='hr_line'data-aos="fade-left" data-aos-duration="2000"></div>
         <Row>
@@ -26,8 +26,8 @@ const MeetTheTeam = () => {
             <p className='paragraphs mb-2'data-aos="fade-left"data-aos-delay="900" data-aos-duration="2000">Faucibus risus id libero interdum in nisl nibh risus molestie. Gravida purus mauris nulla duis est eleifend. Suspendisse eu iaculis odio sit. Hac orci massa habitasse congue nulla tristique. </p>
             <p className='paragraphs'data-aos="fade-left"data-aos-delay="1300" data-aos-duration="2000">Sem posuere amet, tristique pellentesque quis erat lectus mauris, ultricies. Adipiscing pharetra lectus mauris, mi pharetra magna in tempus nisi. Sed at in nisl feugiat non in amet eu facilisis. </p>
             <div className='d-flex gap-3 mt-3 pt-1'data-aos="fade-left" data-aos-delay="500" data-aos-duration="2000">
-              <img className='img' src={instagram} alt="instagram" />
-              <img className='img' src={twitter} alt="twitter" />
+            <a href="https://www.instagram.com"><img className='social_shadow' src={instagram} alt="instagram" /></a>
+              <a href="https://www.twitter.com"><img className='social_shadow' src={twitter} alt="twitter" /></a>
             </div>
           </Col>
           <div className='hr_line mb-4 mt-5'></div>
@@ -44,8 +44,8 @@ const MeetTheTeam = () => {
             <p className='paragraphs mb-2'data-aos="fade-left" data-aos-duration="2000">Neque hendrerit lectus neque molestie facilisis. Faucibus arcu eget facilisis nisl id ultricies. Aliquet eget scelerisque posuere habitant mauris quis ridiculus rutrum consectetur.  </p>
             <p className='paragraphs'data-aos="fade-left" data-aos-duration="2000">Pretium vitae nunc proin nullam turpis eu blandit. Nibh ultricies gravida vestibulum nec ultricies. Eleifend egestas non nunc, nisl tristique adipiscing non diam fermentum.  </p>
             <div className='d-flex gap-3 mt-3 pt-1'data-aos="fade-left" data-aos-duration="2000">
-              <img className='img' src={instagram} alt="instagram" />
-              <img className='img' src={twitter} alt="twitter" />
+            <a href="https://www.instagram.com"><img className='social_shadow' src={instagram} alt="instagram" /></a>
+              <a href="https://www.twitter.com"><img className='social_shadow' src={twitter} alt="twitter" /></a>
             </div>
           </Col>
           <div className="hr_line mb-4 mt-5"></div>
@@ -62,12 +62,12 @@ const MeetTheTeam = () => {
             <p className='paragraphs mb-2'data-aos="fade-left" data-aos-duration="2000">A ut sagittis, purus sit integer suspendisse lacus quam auctor. Interdum venenatis, sed ligula purus erat. A hac faucibus blandit euismod molestie amet nibh scelerisque.  </p>
             <p className='paragraphs'data-aos="fade-left" data-aos-duration="2000">Fermentum aliquam fames suscipit scelerisque integer mauris sollicitudin. Tellus mattis egestas molestie elementum, elementum. Urna, in molestie ac quam nisl orci mattis.  </p>
             <div className='d-flex gap-3 mt-3 pt-1'data-aos="fade-left" data-aos-duration="2000">
-              <img className='img' src={instagram} alt="instagram" />
-              <img className='img' src={twitter} alt="twitter" />
+              <a href="https://www.instagram.com"><img className='social_shadow' src={instagram} alt="instagram" /></a>
+              <a href="https://www.twitter.com"><img className='social_shadow' src={twitter} alt="twitter" /></a>
             </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </section>
   )
 }

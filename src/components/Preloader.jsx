@@ -1,5 +1,5 @@
 import React from 'react'
-import the_kong from '../assets/images/png/the_kong.png'
+import the_kong from '../assets/images/webp/the_kong.webp'
 const Preloader = () => {
   return (
     <div className='d-flex justify-content-center align-items-center position-fixed top-0 start-0 bg-black min-vh-100 w-100 z-5'>

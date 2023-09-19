@@ -1,17 +1,19 @@
 import React from 'react'
-import { Accordion, Container } from 'react-bootstrap'
+import { Accordion } from 'react-bootstrap'
 import twitter from '../assets/images/svg/faq_twitter.svg'
 import discord from '../assets/images/svg/discord.svg'
 import diamond from '../assets/images/svg/diamond.svg'
 import ship from '../assets/images/svg/ship.svg'
 import medium from '../assets/images/svg/medium.svg'
 import telegram from '../assets/images/svg/telegram.svg'
+import mint_nft_bg from '../assets/images/webp/mint_nft_bg_2.webp'
 
 const Faq = () => {
     return (
         <section className='bg-black faq_bg py-5 position-relative'>
+            <img className='mint_nft_bg_2' src={mint_nft_bg} alt="bg" />
             <div className="faq_ellipse_2 d-none d-md-block"></div>
-            <Container className='mb-lg-5 pb-lg-5'>
+            <div className='my_container mb-lg-5 pb-lg-5 z-1 position-relative'>
                 <h2 className='headings text-center mb-5 pb-2'data-aos="fade-up" data-aos-duration="2000">FAQs</h2>
                 <div className='d-flex justify-content-center mb-5 pb-5'>
                     <Accordion defaultActiveKey="0" className='width-896 mb-5 pb-5'data-aos="zoom-in" data-aos-duration="2000">
@@ -53,14 +55,14 @@ const Faq = () => {
                         </Accordion.Item>
                     </Accordion>
                 </div>
-            </Container>
+            </div>
             <div className='pt-lg-5 mt-lg-4 d-flex gap-4 justify-content-center mb-4'>
-                <img className='social_icon' src={twitter} alt="twitter" />
-                <img className='social_icon' src={ship} alt="ship" />
-                <img className='social_icon' src={diamond} alt="diamond" />
-                <img className='social_icon' src={discord} alt="discord" />
-                <img className='social_icon' src={medium} alt="medium" />
-                <img className='social_icon' src={telegram} alt="telegram" />
+                <a href="https://www.twitter.com"><img className='social_icon' src={twitter} alt="twitter" /></a>
+                <a href="https://www.ship.com"><img className='social_icon' src={ship} alt="ship" /></a>
+                <a href="https://www.diamond.com"><img className='social_icon' src={diamond} alt="diamond" /></a>
+                <a href="https://www.discord.com"><img className='social_icon' src={discord} alt="discord" /></a>
+                <a href="https://www.modal.com"><img className='social_icon' src={medium} alt="medium" /></a>
+                <a href="https://www.telegram.com"><img className='social_icon' src={telegram} alt="telegram" /></a>
             </div>
             <div className='faq_line'></div>
             <div className="faq_ellipse d-none d-md-block"></div>

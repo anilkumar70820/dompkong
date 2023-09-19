@@ -6,12 +6,11 @@ import diamond from '../assets/images/svg/hero_diamond.svg'
 import discord from '../assets/images/svg/hero_discord.svg'
 import modal from '../assets/images/svg/hero_modal.svg'
 import telegram from '../assets/images/svg/hero_telegram.svg'
-import pac_kong from '../assets/images/png/2Pac_kong.png'
-import tiger_kong from '../assets/images/png/tiger_kong.png'
-import white_kong from '../assets/images/png/white_kong.png'
-import left_decoration from '../assets/images/png/decoration1.png'
-import right_decoration from '../assets/images/png/right_decoration.png'
-
+import pac_kong from '../assets/images/webp/2Pac_kong.webp'
+import tiger_kong from '../assets/images/webp/tiger_kong.webp'
+import white_kong from '../assets/images/webp/white_kong.webp'
+import left_decoration from '../assets/images/webp/decoration1.webp'
+import right_decoration from '../assets/images/webp/right_decoration.webp'
 const Hero = () => {
     return (
         <section className='hero_bg pb-xl-5 position-relative'>
@@ -22,12 +21,12 @@ const Hero = () => {
                     <button className='buttons'>cONNECT wALLET</button>
                 </div>
                 <div className='d-flex justify-content-center gap-4 mb-4 pb-4' data-aos="fade-down" data-aos-duration="2000" data-aos-delay="3000">
-                    <img className='social_icon' src={twitter} alt="social_links" />
-                    <img className='social_icon' src={ship} alt="social_links" />
-                    <img className='social_icon' src={diamond} alt="social_links" />
-                    <img className='social_icon' src={discord} alt="social_links" />
-                    <img className='social_icon' src={modal} alt="social_links" />
-                    <img className='social_icon' src={telegram} alt="social_links" />
+                    <a href="https://www.twitter.com"><img className='social_icon' src={twitter} alt="social_links" /></a>
+                    <a href="https://www.ship.com"><img className='social_icon' src={ship} alt="social_links" /></a>
+                    <a href="https://www.diamond.com"><img className='social_icon' src={diamond} alt="social_links" /></a>
+                    <a href="https://www.discord.com"><img className='social_icon' src={discord} alt="social_links" /></a>
+                    <a href="https://www.modal.com"><img className='social_icon' src={modal} alt="social_links" /></a>
+                    <a href="https://www.telegram.com"><img className='social_icon' src={telegram} alt="social_links" /></a>
                 </div>
                 <div className='d-flex flex-column align-items-center mb-xl-5 pb-xl-5'>
                     <h1 className='headings mb-3 pb-1 text-center' data-aos="fade-right" data-aos-duration="2000" data-aos-delay="3000">WELCOME
